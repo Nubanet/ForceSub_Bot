@@ -17,7 +17,7 @@ async def _start(client, message):
             if user.status == "kicked":
                await client.send_message(
                    chat_id=message.chat.id,
-                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/Techno_Trickop).",
+                   text="Sorry Sir, You are Banned to use me. Contact my [Support Group](https://t.me/nubasupportgp).",
                    parse_mode="markdown",
                    disable_web_page_preview=True
                )
@@ -42,11 +42,11 @@ async def _start(client, message):
 	        reply_markup=InlineKeyboardMarkup(
                     [
                         [
-                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/Techno_Trickop"),
-                           InlineKeyboardButton("Support Group", url="https://t.me/Techno_Trickop")
+                           InlineKeyboardButton("Join Updates Channel", url="https://t.me/nubanetworks"),
+                           InlineKeyboardButton("Support Group", url="https://t.me/nubasupportgp")
                       ],
                      [
-                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/herox_xd")
+                           InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/realnuba")
                      ]
                  ]
              ),
@@ -59,12 +59,12 @@ async def _start(client, message):
 	reply_markup=InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Techno_Trickop"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/Techno_Trickop")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/nubanetworks"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/nubasupportgp")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/herox_xd")
-                ]
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/realnuba")
+              
             ]
         ),
         parse_mode="markdown",
@@ -82,11 +82,11 @@ async def _source_code(client, message):
                     InlineKeyboardButton("Souce Code", url="https://github.com/sjmxaditi/ForceSub_Bot")
                 ],
                 [
-                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/Techno_Trickop"),
-                    InlineKeyboardButton("Support Group", url="https://t.me/Techno_Trickop")
+                    InlineKeyboardButton("Join Updates Channel", url="https://t.me/nubanetworks"),
+                    InlineKeyboardButton("Support Group", url="https://t.me/nubasupportgp")
                 ],
                 [
-                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/herox_xd")
+                    InlineKeyboardButton("🧑‍💻Devloper🧑‍💻", url="https://t.me/")
                 ]
             ]
         ),
